@@ -121,7 +121,7 @@ input[type="submit"]{
 header{
 
 
-	flex-wrap: wrap;
+	flex-wrap: no-wrap;
 	align-items:stretch;
 
 
@@ -140,7 +140,10 @@ header{
 
 .hero-text-box{
 	text-align: left;
-	padding-top: 20vh;
+	position: absolute;
+	top:50%;
+	left:8.5%;
+	/*padding-top: 40vh;*/
 }
 
 h1,h2,h3{
@@ -221,6 +224,22 @@ nav{
 
 
 /*STicky Nav*/
+.mobile-nav{
+	justify-content: space-around;
+}
+.mobile-nav-icon{
+	position: absolute;
+	top:0;
+	right: 0;
+	margin-top: 30px;
+	cursor:pointer;
+	display: none;
+}
+
+.mobile-nav-icon i{
+	font-size: 2em;
+	color: #fff;
+}
 
 .sticky{
 	position:fixed;
