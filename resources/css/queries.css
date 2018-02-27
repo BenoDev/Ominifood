@@ -1,0 +1,140 @@
+
+/*---------------------large table or small pc------------*/
+@media only screen and (max-width: 1200px){
+
+	header,
+	section,
+	footer{
+		padding-right:2%;
+		padding-left: 2%;
+	}
+
+ }
+
+/*---------------------Tablet------------*/
+@media only screen and (max-width: 1023px){
+
+body{
+	font-size: 18px;
+}
+
+section{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.long-copy{
+	width: 80%;
+	margin-left: 10%;
+}
+
+
+.step-box{margin-top: 10px;}
+.step-box:last-child{margin-top: 10px;}
+.works-steps{margin-bottom: 40px;}
+.works-steps:nth-of-type(3){margin-bottom: 60px;}
+.app-screen{width: 50%;}
+
+
+.icon-small{width: 17px;
+			margin-right: 5px;}
+.city-feature{font-size: 0.9em;}
+
+.plan-box{
+	width: 100%;
+	margin-left: 0;
+}
+.plan-price{
+	font-size: 2.5em;
+}
+
+.contact-form{
+	width: 80%;
+}
+
+}
+
+
+/*---------------small phon to small table---------*/
+@media only screen and (max-width: 767px){
+
+header,
+	section,
+	footer{
+		padding-right:4%;
+		padding-left: 4%;
+	}
+
+ 
+
+
+body{font-size: 16px}
+section{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+h1{font-size: 1.8em;}
+h2{font-size: 1.5em;}
+.long-copy{
+	width: 100%;
+	margin-left: 0;
+}
+
+.works-steps div{
+	
+	min-height: 40px;
+	min-width: 40px;
+	margin-right: 15px;
+	padding: 4px;
+	font-size: 1.2em
+}
+.works-steps{margin-bottom: 20px;}
+.works-steps:nth-of-type(3){margin-bottom: 20px;}
+
+.app-screen{width: 40%;}
+
+
+.flex{
+	flex-wrap: wrap;
+}
+
+
+
+.steps-box{
+	flex-basis: 100%;
+
+}
+.steps-box:first-child{
+	text-align: center;
+	margin: auto;
+}
+.steps-box:last-child{
+	margin: auto;
+}
+.steps-box div{
+	flex-wrap: nowrap;
+}
+.flex-element{
+	flex-basis: 100%;
+	margin-bottom: 10px;
+}
+}
+
+
+/*---------------Small phones from 0-480px---------*/
+@media only screen and (max-width: 480px){
+
+
+	section{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.contact-form{
+	width: 100%;
+}
+
+
+
+
+}
